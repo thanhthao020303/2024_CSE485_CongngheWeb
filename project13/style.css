@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course {
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: calc(30% - 20px); 
+    border: 2px solid red; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+}
+
+.course h2 {
+    color: #333;
+}
+
+.course p {
+    color: #666;
+}
+
+.course-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gift,
+.clock,
+.fa-bookmark {
+    font-size: 20px;
+    color: red;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+}
