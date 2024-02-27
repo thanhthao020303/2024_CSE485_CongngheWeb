@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.avatar-upload {
+    margin-bottom: 20px;
+}
+.avatar-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.avatar-preview img {
+    width: 100%;
+    height: auto;
+}
+
+label {
+    color: black;
+    cursor: pointer; 
+}
+
+label#Profile {
+    color: red;
+    padding-bottom: 20px;
+}
+label#pass {
+    padding-bottom: 20px;
+}
+label#inter {
+    padding-bottom: 20px;
+}
+label#bill {
+    padding-bottom: 20px;
+}
+
+.in4-left {
+    flex: 1; 
+    padding: 0 10px; 
+    order: 2; 
+}
+
+.in4-right {
+    flex: 1;
+    padding: 0 10px; 
+    order: 1; 
+}
